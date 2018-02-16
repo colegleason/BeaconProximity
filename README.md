@@ -11,4 +11,4 @@ However, the signal can be very noisy, so this doesn't work too well out of the 
 you are interested.
 
 ## Problems and Suggestions
-If you encounter a bug or have a general question on how to expand this, please open an issue, and I will respond as soon as possible. Pull request are welcome!
+If you encounter a bug or have a general question on how to expand this, please open an issue, and I will respond as soon as possible. Pull requests are welcome!
