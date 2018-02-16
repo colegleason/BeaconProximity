@@ -5,6 +5,8 @@ This is a sample iOS application in Swift to detect nearby iBeacons with a speci
 - Using a hard-coded UUID and Major ID, it will look for all nearby beacons that match those criteria.
 - When beacons are detected, it will put them in a list, along with an approximate distance to that beacon (this data can be noisy).
 
+All relevant code is containted in the [NearbyBeaconsViewController](https://github.com/colegleason/BeaconProximity/blob/master/BeaconProximity/NearbyBeaconsViewController.swift), with the UI in the storyboard.
+
 ## Approximating Location using iBeacon Proximity data
 It is possible to get a rough estimate of the user's actual position by triangulating (trilateration) three or more iBeacon signals.
 However, the signal can be very noisy, so this doesn't work too well out of the box. Here is a [collection of links](https://gist.github.com/joeblau/581f15f5adefd69b80ff) about the topic if
